@@ -1,0 +1,78 @@
+[ 2016-12-07T00:33:17+08:00 ] ::1 /onlineshop1.0/reg_result.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载模块:Reg_result
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/0_tiny.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002695s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024405s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+ERR: 无法加载模块:Images
+
+[ 2016-12-07T00:52:14+08:00 ] ::1 /onlineshop1.0/images/product/7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+ERR: 无法加载模块:Images
+
