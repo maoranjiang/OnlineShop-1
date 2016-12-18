@@ -19,56 +19,21 @@ function CheckItem(obj)
 	obj.parentNode.parentNode.className = "";
 	var msgBox = obj.parentNode.getElementsByTagName("span")[0];
 	switch(obj.name) {
-		case "username":
+		case "userName":
 			if(obj.value == "") {
 				msgBox.innerHTML = "用户名不能为空";
 				msgBox.className = "error";
 				return false;
 			}
 			break;
-		case "name":
-			if(obj.value == "") {
-				msgBox.innerHTML = "姓名不能为空";
-				msgBox.className = "error";
-				return false;
-			}
-			break;
-		case "sex":
-			if(obj.value == "") {
-				msgBox.innerHTML = "性别不能为空";
-				msgBox.className = "error";
-				return false;
-			}
-			break;
-        case "tel":
-            if(obj.value == "") {
-                msgBox.innerHTML = "手机不能为空";
-                msgBox.className = "error";
-                return false;
-            }
-            break;
-        case "email":
-            if(obj.value == "") {
-                msgBox.innerHTML = "邮箱不能为空";
-                msgBox.className = "error";
-                return false;
-            }
-            break;
-		case "address":
-			if(obj.value == "") {
-				msgBox.innerHTML = "地址不能为空";
-				msgBox.className = "error";
-				return false;
-			}
-			break;
-		case "password":
+		case "passWord":
 			if(obj.value == "") {
 				msgBox.innerHTML = "密码不能为空";
 				msgBox.className = "error";
 				return false;
 			}
 			break;
-		case "repassword":
+		case "rePassWord":
 			if(obj.value == "") {
 				msgBox.innerHTML = "确认密码不能为空";
 				msgBox.className = "error";

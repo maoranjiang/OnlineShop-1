@@ -2,14 +2,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>易买网 - 首页</title>
+	<title>易买网</title>
 	<link type="text/css" rel="stylesheet" href="/onlineshop1.0/Public/css/style.css" />
 	<script type="text/javascript" src="/onlineshop1.0/Public/scripts/function.js"></script>
+	<script>
+		function loginout(){
+			if(!confirm("确认退出？")){
+				window.event.returnValue = false;
+			}
+		}
+	</script>
 </head>
 <body>
 <div id="header" class="wrap">
 	<div id="logo"><img src="images/logo.gif" /></div>
-	<div class="help"><a href="#" class="shopping">购物车</a><a href="login.html"><?php echo ($_SESSION['realname']); ?></a><a href="/onlineshop1.0/index.php/home/index/logout/id/<?php echo ($vo["id"]); ?>" onclick="return confirm('确认要退出吗？')">注销</a></div>
+	<div class="help">
+		<a href="#" class="shopping">购物车</a>
+		<a href="/onlineshop1.0/index.php/Home/Index/showUser"><?php echo ($_SESSION['realname']); ?></a>
+		<a href="/onlineshop1.0/index.php/Home/Index/logout" onclick="loginout()">注销</a>
+	</div>
 	<div class="navbar">
 		<ul class="clearfix">
 			<li class="current"><a href="#">首页</a></li>

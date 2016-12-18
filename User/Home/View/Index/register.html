@@ -41,6 +41,10 @@
 						<td><input class="text" type="text" id="sex" name="sex" onfocus="FocusItem(this)" onblur="CheckItem(this);" /><span></span></td>
 					</tr>
 					<tr>
+						<td class="field">生日：</td>
+						<td><input class="text" type="text" id="birthday" name="birthday" onfocus="FocusItem(this)" onblur="CheckItem(this);" /><span></span></td>
+					</tr>
+					<tr>
 						<td class="field">手机：</td>
 						<td><input class="text" type="text" id="tel" name="tel" onfocus="FocusItem(this)" onblur="CheckItem(this);" /><span></span></td>
 					</tr>
