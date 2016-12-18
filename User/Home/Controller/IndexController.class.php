@@ -11,6 +11,7 @@ class IndexController extends Controller {
     }
 
     public function logout(){
+        $this->display(home);
     }
 
     public function register(){

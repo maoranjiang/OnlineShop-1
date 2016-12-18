@@ -14,14 +14,6 @@ function FocusItem(obj)
 	msgBox.className = "";
 }
 
-function logout(){
-	if(confirm('真的要退出吗？')){
-		return true;
-	}else {
-		return false;
-	}
-}
-
 function CheckItem(obj)
 {
 	obj.parentNode.parentNode.className = "";
